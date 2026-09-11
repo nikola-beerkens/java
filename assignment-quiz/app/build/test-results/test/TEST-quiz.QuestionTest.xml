@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="quiz.QuestionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-11T14:39:27" hostname="TEGGL" time="0.017">
+  <properties/>
+  <testcase name="scoreAboveFiveTest" classname="quiz.QuestionTest" time="0.008"/>
+  <testcase name="thisThatQuestionTest" classname="quiz.QuestionTest" time="0.004"/>
+  <testcase name="scoreBelowOneTest" classname="quiz.QuestionTest" time="0.0"/>
+  <testcase name="openQuestionTest" classname="quiz.QuestionTest" time="0.0"/>
+  <testcase name="multipleChoiceQuestionTest" classname="quiz.QuestionTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
