@@ -51,16 +51,18 @@ public class Gallows {
         return this.noOfTries;
     }
 
-    public void guessLetter(char letter){
+    public boolean guessLetter(char letter){
+        boolean isInWord = word.indexOf(letter) != -1;
         for(int i=0; i<word.length(); i++){
             if(letter == word.charAt(i)){
                 something.setCharAt(i, letter);
             }
         }
-        if(word.indexOf(letter) == -1){
+        if(!isInWord){
             noOfTries--;
         }
         guessedLetters.add(letter);
+        return isInWord;
     }
 
     public String toString(){
