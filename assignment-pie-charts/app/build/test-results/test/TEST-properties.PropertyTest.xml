@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="properties.PropertyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-13T21:18:09" hostname="TEGGL" time="0.081">
+  <properties/>
+  <testcase name="addThreeProperties" classname="properties.PropertyTest" time="0.063"/>
+  <testcase name="plusTwo" classname="properties.PropertyTest" time="0.002"/>
+  <testcase name="identity" classname="properties.PropertyTest" time="0.0"/>
+  <testcase name="convertToString" classname="properties.PropertyTest" time="0.006"/>
+  <testcase name="convertToFormattedString" classname="properties.PropertyTest" time="0.006"/>
+  <testcase name="addTwoProperties" classname="properties.PropertyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
