@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="quadtrees.QuadTreeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-13T21:07:28" hostname="TEGGL" time="0.023">
+  <properties/>
+  <testcase name="writeAllWhite1x1" classname="quadtrees.QuadTreeTest" time="0.016"/>
+  <testcase name="readMixedBlackWhite" classname="quadtrees.QuadTreeTest" time="0.003"/>
+  <testcase name="writeAllBlack1x1" classname="quadtrees.QuadTreeTest" time="0.001"/>
+  <testcase name="readAllBlack" classname="quadtrees.QuadTreeTest" time="0.0"/>
+  <testcase name="readAllWhite" classname="quadtrees.QuadTreeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
