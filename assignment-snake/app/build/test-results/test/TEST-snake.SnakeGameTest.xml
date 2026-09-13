@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="snake.SnakeGameTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2026-09-13T21:51:51" hostname="TEGGL" time="0.623">
+  <properties/>
+  <testcase name="testSnakeInitialDirection" classname="snake.SnakeGameTest" time="0.595"/>
+  <testcase name="testSnakeIsAtPosition" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testFoodMovement" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testSnakeMoveUp" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testGameStartsOnStart" classname="snake.SnakeGameTest" time="0.013"/>
+  <testcase name="testSnakeChangeDirection" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testSegmentPosition" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testWallCollisionDetection" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testSnakeSpawnsAtCenter" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testSegmentSetPosition" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testWorldInitialization" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testGameEndsOnCollision" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testSnakeMoveRight" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testSnakeMoveDown" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testSnakeMoveLeft" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testDirectionRotateRight" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testSelfCollisionDetection" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testGamePausesAndResumes" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testSegmentProperties" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testFoodSpawnsRandomly" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testDirectionRotateLeft" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testEatingIncreasesScore" classname="snake.SnakeGameTest" time="0.001"/>
+  <testcase name="testFoodDoesntSpawnOnSnake" classname="snake.SnakeGameTest" time="0.0"/>
+  <testcase name="testEatingGrowsSnake" classname="snake.SnakeGameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Exception in thread "Test worker" java.lang.NullPointerException: Cannot invoke "com.sun.glass.ui.Timer.resume()" because "this.pulseTimer" is null
+	at com.sun.javafx.tk.quantum.QuantumToolkit.resumeTimer(QuantumToolkit.java:542)
+	at com.sun.javafx.tk.quantum.QuantumToolkit$PulseTask.set(QuantumToolkit.java:213)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.setAnimationRunnable(QuantumToolkit.java:898)
+	at com.sun.javafx.tk.quantum.PrimaryTimer.postUpdateAnimationRunnable(PrimaryTimer.java:107)
+	at com.sun.scenario.animation.AbstractPrimaryTimer$MainLoop.updateAnimationRunnable(AbstractPrimaryTimer.java:323)
+	at com.sun.scenario.animation.AbstractPrimaryTimer.addPulseReceiver(AbstractPrimaryTimer.java:175)
+	at javafx.animation.Animation.addPulseReceiver(Animation.java:168)
+	at javafx.animation.Animation.startReceiver(Animation.java:174)
+	at javafx.animation.Animation.play(Animation.java:998)
+	at snake.World.lambda$new$1(World.java:44)
+	at com.sun.javafx.binding.ExpressionHelper$SingleChange.fireValueChangedEvent(ExpressionHelper.java:181)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:80)
+	at javafx.beans.property.BooleanPropertyBase.fireValueChangedEvent(BooleanPropertyBase.java:104)
+	at javafx.beans.property.BooleanPropertyBase.markInvalid(BooleanPropertyBase.java:111)
+	at javafx.beans.property.BooleanPropertyBase.set(BooleanPropertyBase.java:145)
+	at snake.World.setRunning(World.java:67)
+	at snake.World.start(World.java:72)
+	at snake.SnakeGameTest.testGameStartsOnStart(SnakeGameTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:181)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:130)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:101)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:61)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+]]></system-err>
+</testsuite>
