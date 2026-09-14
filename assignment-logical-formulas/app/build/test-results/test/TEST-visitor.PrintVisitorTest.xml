@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="visitor.PrintVisitorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-09-14T20:34:33" hostname="TEGGL" time="0.007">
+  <properties/>
+  <testcase name="testPrintAndImplies" classname="visitor.PrintVisitorTest" time="0.001"/>
+  <testcase name="testPrintAndAnd" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintImplies" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintImpliesAnd" classname="visitor.PrintVisitorTest" time="0.001"/>
+  <testcase name="testPrintImpliesNot" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintAtom" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintTrue" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintOr" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintAndOr" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintFalse" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintOrAnd" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintAnd" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintNot" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <testcase name="testPrintNotImplies" classname="visitor.PrintVisitorTest" time="0.001"/>
+  <testcase name="testPrintBigFormula" classname="visitor.PrintVisitorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

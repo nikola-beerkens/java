@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="visitor.EvaluateVisitorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-14T20:34:33" hostname="TEGGL" time="0.015">
+  <properties/>
+  <testcase name="testEvalAnd" classname="visitor.EvaluateVisitorTest" time="0.009"/>
+  <testcase name="testEvalNot" classname="visitor.EvaluateVisitorTest" time="0.002"/>
+  <testcase name="testEvalParens" classname="visitor.EvaluateVisitorTest" time="0.002"/>
+  <testcase name="testEvalImplies" classname="visitor.EvaluateVisitorTest" time="0.0"/>
+  <testcase name="testEvalTrue" classname="visitor.EvaluateVisitorTest" time="0.001"/>
+  <testcase name="testEvalOr" classname="visitor.EvaluateVisitorTest" time="0.0"/>
+  <testcase name="testEvalAtomP" classname="visitor.EvaluateVisitorTest" time="0.0"/>
+  <testcase name="testEvalAtomQ" classname="visitor.EvaluateVisitorTest" time="0.0"/>
+  <testcase name="testEvalFalse" classname="visitor.EvaluateVisitorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
