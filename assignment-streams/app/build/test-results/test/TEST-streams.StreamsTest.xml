@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="streams.StreamsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-14T20:55:28" hostname="TEGGL" time="0.035">
+  <properties/>
+  <testcase name="everySecondElement" classname="streams.StreamsTest" time="0.011"/>
+  <testcase name="testRot13" classname="streams.StreamsTest" time="0.007"/>
+  <testcase name="sumOddNumbers" classname="streams.StreamsTest" time="0.003"/>
+  <testcase name="multiplyNumbers" classname="streams.StreamsTest" time="0.002"/>
+  <testcase name="sumStringIntegers" classname="streams.StreamsTest" time="0.001"/>
+  <testcase name="philosophers" classname="streams.StreamsTest" time="0.004"/>
+  <testcase name="countEvenNumbers" classname="streams.StreamsTest" time="0.001"/>
+  <testcase name="calculateTax" classname="streams.StreamsTest" time="0.003"/>
+  <testcase name="streamOfStreams" classname="streams.StreamsTest" time="0.001"/>
+  <system-out><![CDATA[rotOnce = Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small unregarded yellow sun. Orbiting this at a distance of roughly ninety-two million miles is an utterly insignificant little blue green planet whose ape-descended life forms are so amazingly primitive that they still think digital watches are a pretty neat idea.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
